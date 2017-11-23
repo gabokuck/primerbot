@@ -31,6 +31,22 @@ def lista_p1(bot, update, pass_chat_data=True):
 	bot.sendMessage(chat_id=update.message.chat_id, text="Lorena")
 	bot.sendMessage(chat_id=update.message.chat_id, text="Ilse")
 
+def lista_p2(bot, update, pass_chat_data=True):
+	update.message.chat_id
+	bot.sendMessage(chat_id=update.message.chat_id, text="Alberto Cortes Ramos")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Araceli Galvan Morales")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Gustavo Garcia Chavez")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Luisa Hernandez Contreras")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Marco Guerrero Ramirez")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Lorena Serrano Perez")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Javier Cortes Mateos")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Jesus Guerrero Lopez")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Eduardo Chavira Cortes")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Emanuel Garcia Lopez")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Gabriela Corona Rosas")
+	bot.sendMessage(chat_id=update.message.chat_id, text="Mauricio Lopez Tarso")
+
+
 
 
 start_handler = CommandHandler('start', start)
