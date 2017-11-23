@@ -52,6 +52,7 @@ def lista_p2(bot, update, pass_chat_data=True):
 start_handler = CommandHandler('start', start)
 gabo_handler = CommandHandler('gabo', gabo)
 lista_p1_handler = CommandHandler('lista_p1', lista_p1)
+lista_p2_handler = CommandHandler('lista_p2', lista_p2)
 listener_handler = MessageHandler(Filters.text, listener)
 
 dispatcher = mi_bot_updater.dispatcher
@@ -59,6 +60,7 @@ dispatcher = mi_bot_updater.dispatcher
 dispatcher.add_handler(start_handler)
 dispatcher.add_handler(gabo_handler)
 dispatcher.add_handler(lista_p1_handler)
+dispatcher.add_handler(lista_p2_handler)
 dispatcher.add_handler(listener_handler)
 
 mi_bot_updater.start_polling()
